@@ -1,4 +1,4 @@
-const apiKey = "8f5deb3a69e94797849103659260803";
+const apiKey = API_KEY;
 const apiUrl = "https://api.weatherapi.com/v1/current.json?aqi=no&q=";
 
 const searchBox = document.querySelector(".search input");
@@ -25,26 +25,19 @@ async function checkWeather(city) {
   const weatherCondition = data.current.condition.text;
 
   if (weatherCondition === "Clear") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\clear.png";
+    weatherIcon.src = "./clear.png";
   } else if (weatherCondition === "Sunny") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\clear.png";
+    weatherIcon.src = "./clear.png";
   } else if (weatherCondition === "Cloudy") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\clouds.png";
+    weatherIcon.src = "./clouds.png";
   } else if (weatherCondition === "Partly cloudy") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\clouds.png";
+    weatherIcon.src = "./clouds.png";
   } else if (weatherCondition === "Rain") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\rain.png";
+    weatherIcon.src = "./rain.png";
   } else if (weatherCondition === "Drizzle") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\drizzle.png";
+    weatherIcon.src = "./drizzle.png";
   } else if (weatherCondition === "Mist") {
-    weatherIcon.src =
-      "C:\Users\Siddhesh\Desktop\QSPIDER PROJECTS\Weather App\mist.png";
+    weatherIcon.src = "./mist.png";
   }
 
   document.querySelector(".weather").style.display = "block";
