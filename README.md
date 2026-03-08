@@ -51,3 +51,8 @@ This project uses [WeatherAPI.com](https://www.weatherapi.com/).
 ## License
 
 This project is open-source and free to use.
+
+<img width="1321" height="789" alt="Screenshot 2026-03-08 183437" src="https://github.com/user-attachments/assets/9ef3132e-ba28-446b-994b-f9a471b9267f" />4
+<img width="265" height="539" alt="Screenshot 2026-03-08 183508" src="https://github.com/user-attachments/assets/6c4a517b-c82c-4884-82ac-9383e51c333e" />
+
+
